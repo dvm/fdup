@@ -133,7 +133,6 @@ int main(int argc, char *argv[])
         if (fs::is_symlink(file_path))
             continue;
         if (files.count(size) > 1) {
-            file_hash hash(file_path);
             duplicates.emplace(file_hash(file_path), &file_path);
             duplicate_size += size;
         }

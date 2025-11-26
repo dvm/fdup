@@ -1,2 +1,2 @@
 # fdup
-Search for duplicate files in a directory
+Search for duplicate files in a directories.

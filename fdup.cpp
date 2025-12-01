@@ -1,5 +1,4 @@
 #include "stopwatch.h"
-#include "filehasher.h"
 #include "flags.h"
 #include "options.h"
 #include "gatherer.h"
